@@ -22,9 +22,11 @@
 }
 
 @media (max-width:768px) {
-.header-form { text-align: center;
+  .header-form {
+    text-align: center;
+  }
 }
-}
+
 .centered-main-page-element {
     display: block;
     width: 500px;
