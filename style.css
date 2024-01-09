@@ -48,11 +48,13 @@
   padding: 0px;
 }
 
-.task-item, h3 {
+.task-item,
+.subheader {
   list-style: none;
 }
 
-input, button{
+input,
+button {
   outline: none;
 }
 
@@ -71,7 +73,8 @@ button:hover {
 }
 
 /* Heading */
-h3,
+
+.subheader,
 label[for='new-task'] {
     color: #333;
     font-weight: 700;
