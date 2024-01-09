@@ -152,22 +152,22 @@ button.delete img:hover {
 
 /* Completed */
 
-ul#completed-tasks label {
+.list-tasks#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-ul .task-item input[type=text] {
+.list-tasks .task-item input[type=text] {
   display: none;
 }
 
-ul .task-item.editMode input[type=text] {
+.list-tasks .task-item.editMode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul .task-item.editMode label {
+.list-tasks .task-item.editMode label {
   display: none;
 }
